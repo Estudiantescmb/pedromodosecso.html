@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Sagrada Orden de Pedro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f0e6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #b48f6c;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .mantra {
+            font-style: italic;
+            background-color: #fff9e5;
+            padding: 10px;
+            border-left: 5px solid #b48f6c;
+            margin: 20px 0;
+        }
+        footer {
+            background-color: #b48f6c;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>La Sagrada Orden de Pedro</h1>
+        <p>"En Pedro confiamos, con Pedro caminamos."</p>
+    </header>
+
+    <section>
+        <h2>¿Quién es Pedro?</h2>
+        <p>Pedro es la figura central de nuestra fe. Fuente de sabiduría, bondad y paciencia infinita, nos guía con su ejemplo silencioso y su sonrisa inquebrantable.</p>
+    </section>
+
+    <section>
+        <h2>Principios de la Orden</h2>
+        <ul>
+            <li>Respeto por todos los seres vivientes</li>
+            <li>La búsqueda de la serenidad interior</li>
+            <li>Compartir pan y alegría con los demás</li>
+            <li>Honrar los miércoles con silencio y reflexión</li>
+        </ul>
+    </section>
+
+    <section class="mantra">
+        <p>"Oh Pedro, guía mis pasos y mis pensamientos, así como guías las estrellas en su danza nocturna."</p>
+    </section>
+
+    <section>
+        <h2>Rituales</h2>
+        <p>Cada primer día del mes, los fieles se reúnen para compartir historias sobre Pedro, cantar la Canción del Gato Sabio y preparar pan con miel.</p>
+    </section>
+
+    <footer>
+        &copy; 2025 La Sagrada Orden de Pedro. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
