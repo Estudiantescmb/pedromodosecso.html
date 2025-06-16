@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>Merca josa</title>
+
+  <style>
+
+    body {
+
+      font-family: Arial;
+
+      max-width: 600px;
+
+      margin: auto;
+
+    }
+
+    .producto {
+
+      border: 1px solid #ccc;
+
+      padding: 10px;
+
+      margin: 10px 0;
+
+    }
+
+    #carrito {
+
+      background: #f9f9f9;
+
+      border: 2px dashed #ccc;
+
+      padding: 10px;
+
+      margin-top: 20px;
+
+    }
+
+    .btn {
+
+      padding: 5px 10px;
+
+      cursor: pointer;
+
+      background-color: #28a745;
+
+      color: white;
+
+      border: none;
+
+      margin-top: 5px;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+  <h1>Merca josa</h1>
+
+  <p>Haz clic en "Agregar al carrito" para ver cómo se simula una compra.</p>
+
+
+  <div class="producto">
+
+    <h3>Pantalon y camisa</h3>
+
+    <p>Precio: $120.000</p>
+
+    <button class="btn" onclick="agregarAlCarrito('Zapatos deportivos', 120000)">Agregar al carrito</button>
+   <img src="https://m.media-amazon.com/images/I/51GpIge-9FL._AC_.jpg" width="20%" height="30%">
+  </div>
+
+
+  <div class="producto">
+
+    <h3>Cajetillade sigarroz</h3>
+
+    <p>Precio: $35.000</p>
+
+    <button class="btn" onclick="agregarAlCarrito('Camiseta básica', 35000)">Agregar al carrito</button>
+  <img src="https://i.redd.it/all-peashooters-and-berryshooter-smoking-blunts-most-of-v0-9ga6gj1rvijb1.png?width=410&format=png&auto=webp&s=700602b9a420ba23325ed7f367c9588a2da4c4b4" width="40%" height="30%"></center>
+  </div>
+   <div class="producto">
+
+    <h3>Nariz de cangrejo</h3>
+
+    <p>Precio: $75.000</p>
+
+    <button class="btn" onclick="agregarAlCarrito('Mochila', 75000)">Agregar al carrito</button>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQhRN4NNNklHTQrNiAQK93lXPxV0ofnT8ilw&s" width="60%" height="50%"></center>
+
+  </div>
+    <div class="producto">
+
+    <h3>Un angry bidr de angry birds</h3>
+
+    <p>Precio: $75.000</p>
+
+    <button class="btn" onclick="agregarAlCarrito('Mochila', 75000)">Agregar al carrito</button>
+   <img src="https://i.pinimg.com/736x/74/2d/4a/742d4ac1487db4d3a281c15392a4ebba.jpg" width="50%" height="30%"></center>
+  </div>
+    <div class="producto">
+
+    <h3>Cabeza de pexcaro</h3>
+
+    <p>Precio: $75.000</p>
+
+    <button class="btn" onclick="agregarAlCarrito('Mochila', 75000)">Agregar al carrito</button>
+  <img src="https://i.pinimg.com/736x/d6/b7/55/d6b755ab889c18485f50f218b9e1b43d.jpg" width="60%" height="40%">
+  </div>
+    <div class="producto">
+
+    <h3>Morciya</h3>
+
+    <p>Precio: $75.000</p>
+
+    <button class="btn" onclick="agregarAlCarrito('Mochila', 75000)">Agregar al carrito</button>
+  <img src="https://i.pinimg.com/736x/02/50/af/0250af2e52367a9806c2209c55e8ca76.jpg" width="40%" height="30%"></center>
+  </div>
+    <div class="producto">
+
+    <h3>Caldo de poyo</h3>
+
+    <p>Precio: $75.000</p>
+
+    <button class="btn" onclick="agregarAlCarrito('Mochila', 75000)">Agregar al carrito</button>
+ <img src="https://i.pinimg.com/736x/62/31/bc/6231bc0ff86bce9c36e4c891ab87e482.jpg" width="40%" height="30%"></center>
+  </div>
+    <div class="producto">
+
+    <h3>Chunchuyo</h3>
+
+    <p>Precio: $75.000</p>
+
+    <button class="btn" onclick="agregarAlCarrito('Mochila', 75000)">Agregar al carrito</button>
+  <img src="https://i.pinimg.com/736x/24/60/79/24607957d035f9ec30cfe75f95afc878.jpg" width="50%" height="30%"></center>
+  </div>
+    <div class="producto">
+
+    <h3>Kilo de cangrejo</h3>
+
+    <p>Precio: $75.000</p>
+
+    <button class="btn" onclick="agregarAlCarrito('Mochila', 75000)">Agregar al carrito</button>
+  <img src="https://i.pinimg.com/736x/b2/0c/66/b20c66c2a54b679f8ddd1c27ce8bfd85.jpg" width="50%" height="30%"></center>
+  </div>
+  
+ 
+
+
+  <div class="producto">
+
+    <h3>Computador</h3>
+
+    <p>Precio: $75.000</p>
+
+    <button class="btn" onclick="agregarAlCarrito('Mochila', 75000)">Agregar al carrito</button>
+  <img src="https://i.pinimg.com/736x/b5/9c/41/b59c41a951ca9caf08391b9f7155be89.jpg" width="50%" height="30%"></center>
+  </div>
+
+
+  <div id="carrito">
+
+    <h2>Carrito de Compras</h2>
+
+    <ul id="listaCarrito"></ul>
+
+    <p><strong>Total:</strong> $<span id="total">0</span></p>
+
+  </div>
+
+
+  <script>
+
+    let carrito = [];
+
+    let total = 0;
+
+
+    function agregarAlCarrito(nombre, precio) {
+
+      carrito.push({ nombre, precio });
+
+      total += precio;
+
+      actualizarCarrito();
+
+    }
+
+
+    function actualizarCarrito() {
+
+      const lista = document.getElementById("listaCarrito");
+
+      const totalSpan = document.getElementById("total");
+
+
+      lista.innerHTML = "";
+
+      carrito.forEach((item) => {
+
+        const li = document.createElement("li");
+
+        li.textContent = `${item.nombre} - $${item.precio.toLocaleString()}`;
+
+        lista.appendChild(li);
+
+      });
+
+
+      totalSpan.textContent = total.toLocaleString();
+
+    }
+
+  </script>
+
+
+</body>
+
+</html>
